@@ -15,7 +15,10 @@ from classes.utilities import delete_directory
 from datetime import datetime
 
 CONFIG_FILE = "config.json"
-config = ConfigManager(CONFIG_FILE)  # Use ConfigManager for configuration loading
+SCRIPT_DIR = Path(__file__).parent
+CONFIG_FILE_NAME = "config.json"
+CONFIG_FULL_PATH = SCRIPT_DIR / CONFIG_FILE_NAME
+config = ConfigManager(CONFIG_FULL_PATH)  # Use ConfigManager for configuration loading
 
 
 def setup_logging(log_level):

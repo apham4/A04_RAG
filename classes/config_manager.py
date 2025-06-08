@@ -7,11 +7,15 @@ from dataclasses import dataclass
 class ConfigManager:
     """Manages configuration settings from a JSON file."""
     config_file: Path
+    
+    def __init__(self, config_file_path: Path):
+        self.config_file = config_file_path
+        self.__post_init__()
 
     def __post_init__(self):
-        self.config_file = Path(self.config_file)
+        # self.config_file = Path(self.config_file)
         if not self.config_file.exists():
-            logging.error(f"Configuration file '{self.config_file}' not found.")
+            logging.error(f"Configuration file '{self.config_file}' not found. Expected path is '{str(self.config_file.resolve())}'")
             exit(1)
         with open(self.config_file, "r") as file:
             self.settings = json.load(file)
