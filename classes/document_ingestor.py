@@ -3,6 +3,9 @@ from pathlib import Path
 import pdfplumber
 from transformers import AutoTokenizer
 
+import json
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
 
 class DocumentIngestor:
     def __init__(self,
@@ -22,6 +25,12 @@ class DocumentIngestor:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.tokenizer = AutoTokenizer.from_pretrained(embedding_model_name)
+        
+        self.text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=1000,
+            chunk_overlap=150,
+            length_function=len
+        )
 
         self.logger = logging.getLogger(__name__)
         self.logger.info(f"Initialized DocumentIngestor: input_dir: {self.input_dir}"
@@ -77,11 +86,16 @@ class DocumentIngestor:
                 continue
 
             cleaned_text = self._clean_text(text)
+            
+            # Adding chunking
             if cleaned_text:
-                output_file = self.output_dir / f"{file_path.stem}_cleaned.txt"
+                chunks = self.text_splitter.split_text(cleaned_text)
+                
+                # Save chunks to a JSON file
+                output_file = self.output_dir / f"{file_path.stem}_cleaned_chunks.json"
                 with open(output_file, "w", encoding="utf-8") as f:
-                    f.write(cleaned_text)
-                self.logger.info(f"Saved cleaned text to {output_file}")
+                    json.dump(chunks, f, indent=4)
+                self.logger.info(f"Saved {len(chunks)} chunks to {output_file}")
             else:
-                self.logger.warning(f"Skipping {file_path} due to extraction failure.")
+                self.logger.warning(f"Skipping {file_path} due to extraction failure or empty content.")
 

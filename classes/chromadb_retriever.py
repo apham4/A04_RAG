@@ -5,7 +5,7 @@ from pathlib import Path
 import logging
 
 class ChromaDBRetriever:
-    """Retrieves relevant documents from ChromaDB based on a search phrase."""
+    """Retrieves relevant document chunks from ChromaDB based on a search phrase."""
 
     def __init__(self, embedding_model_name: str,
                  collection_name: str,
@@ -25,48 +25,30 @@ class ChromaDBRetriever:
         """Generates an embedding vector for the input text."""
         return self.embedding_model.encode(text, normalize_embeddings=True).tolist()
 
-    def extract_context(self, full_text: str, search_str: str) -> str:
-        """
-        Extracts the paragraph that contains the search term.
-        Falls back to the entire text if no match is found.
-        """
-        paragraphs = full_text.split("\n\n")  # Split by paragraph
-        for para in paragraphs:
-            if search_str.lower() in para.lower():
-                return para.strip()
-        return full_text[:300]  # Fallback: Return the first 300 characters if no match
-
     def query(self, search_phrase: str, top_k: int = 5) -> List[Dict[str, Any]]:
         """
-        Queries ChromaDB collection and returns structured results.
-        Filters low-score matches and prioritizes the most relevant document.
+        Queries ChromaDB collection and returns structured results of relevant chunks.
         """
         embedding_vector = self.embed_text(search_phrase)
-        results = self.collection.query(query_embeddings=[embedding_vector], n_results=top_k)
+        results = self.collection.query(query_embeddings=[embedding_vector], n_results=top_k,
+            include=["metadatas", "distances"] # Adding metadatas and distances to query
+        )
 
         # Parse results
         retrieved_docs = []
-        query_words = set(search_phrase.lower().split())
-
         for doc_id, metadata, distance in zip(results.get("ids", [[]])[0], results.get("metadatas", [[]])[0], results.get("distances", [[]])[0]):
             if distance < self.score_threshold:
                 continue  # Skip low-confidence matches
-
-            text = metadata.get("text", "")
-            extracted_context = self.extract_context(text, search_phrase)
-
-            # Ensure at least one query word is in the retrieved text
-            if not any(word in text.lower() for word in query_words):
-                continue  # Skip irrelevant documents
-
+            
             retrieved_docs.append({
                 "id": doc_id,
                 "score": round(distance, 4),
-                "context": extracted_context,
+                "context": metadata.get("text", ""), # Chunk text
                 "source": metadata.get("source", "Unknown"),
-            })
+                "chunk_index": metadata.get("chunk_index", -1)
+            })  
 
         # Sort by score (lower is better in similarity searches)
         retrieved_docs.sort(key=lambda x: x["score"])
 
-        return retrieved_docs
+        return retrieved_docs[:top_k]

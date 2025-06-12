@@ -37,29 +37,28 @@ class EmbeddingPreparer:
                 continue
             try:
                 self.logger.info(f"Processing: {file_path}")
-                text = self._read_file(file_path)
-                embedding = self._generate_embedding(text)
-                self._save_embedding(file_path, embedding)
+                with open(file_path, "r", encoding="utf-8") as f:
+                    chunks = json.load(f)
+                embeddings = self._generate_embeddings_for_chunks(chunks) # Generate embeddings for all chunks in the file
+                self._save_embeddings(file_path, embeddings)
+                
             except Exception as e:
                 self.logger.error(f"Error processing {file_path}: {e}")
 
         logging.getLogger().setLevel(save_log_level)
 
-    def _read_file(self, file_path):
-        with open(file_path, "r", encoding="utf-8") as f:
-            return f.read().strip()
-
-    def _generate_embedding(self, text):
-        inputs = self.tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512).to(
-            self.device)
+    def _generate_embeddings_for_chunks(self, chunks: list[str]) -> list[list[float]]:
+        inputs = self.tokenizer(chunks, return_tensors="pt", truncation=True, padding=True, max_length=512).to(self.device)
         with torch.no_grad():
             outputs = self.model(**inputs)
-        return outputs.last_hidden_state.mean(dim=1).squeeze().cpu().numpy().tolist()
+        embeddings = outputs.last_hidden_state.mean(dim=1)
+        return embeddings.cpu().numpy().tolist()
 
-    def _save_embedding(self, file_path, embedding):
-        output_file = self.output_dir / f"{file_path.stem}_embeddings.json"
+    def _save_embeddings(self, file_path: Path, embeddings: list[list[float]]):
+        output_filename = f"{file_path.stem.replace('_cleaned_chunks', '')}_embeddings.json"
+        output_file = self.output_dir / output_filename
         with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(embedding, f)  # Save list of floats
-        self.logger.info(f"Saved embeddings to {output_file}")
+            json.dump(embeddings, f) # Save list of floats
+        self.logger.info(f"Saved {len(embeddings)} embeddings to {output_file}")
 
 
