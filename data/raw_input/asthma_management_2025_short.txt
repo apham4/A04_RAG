@@ -1,0 +1,23 @@
+Title: Global Strategy for Asthma Management and Prevention, Updated 2025 
+
+Authors: Global Initiative for Asthma (GINA) 
+
+Summary:
+The 2025 Global Strategy for Asthma Management and Prevention, updated annually by the Global Initiative for Asthma (GINA), serves as an evidence-based guide for healthcare providers and policymakers worldwide. Since its initial publication in 1995, and annual updates since 2002, the GINA Strategy Report aims to reduce the global burden of asthma, which remains a serious health problem affecting all age groups and contributing to significant morbidity and healthcare costs. GINA's efforts also extend to promoting environmental sustainability in healthcare and ensuring global access to effective, quality-assured medications.
+
+The 2025 update introduces new insights and refinements across various aspects of asthma care. It incorporates the latest high-quality evidence, with recommendations assigned levels of evidence (A, B, C, D) based on the rigor of supporting studies, ranging from randomized controlled trials to panel consensus judgments. This rigorous methodology ensures that the guidance is robust and clinically relevant, addressing the evolving landscape of asthma diagnosis and management.
+
+A crucial component of the guidelines focuses on the diagnosis of asthma in adults, adolescents, and children aged 6-11 years. It provides detailed flowcharts and criteria for initial diagnosis, methods for confirming asthma in patients already receiving inhaled corticosteroid (ICS)-containing treatment, and guidance on differentiating asthma from other respiratory conditions like COPD, particularly in older patients or smokers. The report emphasizes the importance of objective measurement of variable expiratory airflow to confirm diagnosis, especially in obese patients whose symptoms might mimic asthma.
+
+Assessment of asthma is another key area, covering symptom control, future risk of exacerbations and lung function decline, and asthma severity. The GINA guidelines stress the critical importance of routinely prescribing ICS-containing therapy to reduce the patient's risk of severe exacerbations, regardless of symptom frequency or severity. It clarifies that "mild asthma" is a retrospective label and that even patients with infrequent symptoms can experience severe or fatal exacerbations if not adequately treated with ICS-containing therapy.
+
+The principles of asthma management are centered around a personalized control-based approach. The long-term goal of asthma management includes achieving remission, which involves sustained control of symptoms and lung function. The guidelines outline two main treatment tracks for adults and adolescents: a preferred track using ICS-formoterol as a reliever, and an alternative track utilizing SABA or ICS-SABA as a reliever. Non-pharmacological strategies and the importance of a strong patient-healthcare provider partnership are also highlighted.
+
+The report provides specific guidance for managing asthma in special populations and contexts, including patients with multimorbidity and those in low- and middle-income countries (LMICs) where the burden of asthma morbidity and mortality is highest. A significant section is dedicated to the assessment and management of difficult-to-treat and severe asthma, detailing the investigation of phenotypes, the role of non-biologic therapies, and the consideration of Type 2-targeted biologic therapies.
+
+Worsening asthma and exacerbations are thoroughly addressed, with emphasis on prompt diagnosis and the use of written asthma action plans for self-management. Protocols for managing exacerbations in primary care and emergency department settings are provided for all age groups, including children 5 years and younger. For young children, the guidelines offer specific criteria for diagnosis, assessment, and management, acknowledging the unique challenges in this age group.
+
+Finally, the GINA 2025 update includes recommendations for the primary prevention of asthma, covering factors associated with increased or decreased risk in children, such as environmental tobacco smoke exposure, Vitamin D sufficiency, and judicious use of antibiotics in infancy. The document also provides advice on implementing asthma management strategies effectively within health systems, addressing barriers and offering examples of high-impact interventions to promote evidence-based care globally.
+
+References:
+Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Available from: www.ginasthma.org 

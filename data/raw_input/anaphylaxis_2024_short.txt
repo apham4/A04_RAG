@@ -1,0 +1,25 @@
+Title: Anaphylaxis in Practice: A Guide to the 2023 Practice Parameter Update
+
+Authors: Julie Wang, Jay A. Lieberman, Dana V. Wallace, Susan Waserman, and David B.K. Golden
+
+Summary:
+This clinical management review provides a concise summary of the latest research developments and practical recommendations for the diagnosis and management of anaphylaxis, as presented in the Joint Task Force on Practice Parameters 2023 Anaphylaxis practice parameter Update. It aims to offer a high-level overview of the clinically impactful recommendations derived from evidence that has emerged since the 2015 parameter update, serving as a guide for clinicians to better understand and apply the updated guidelines in their practice.
+
+The 2023 update introduces new and evolving diagnostic criteria for anaphylaxis. It provides updated rules for defining elevated tryptase levels, which are critical biomarkers in diagnosing severe allergic reactions. Furthermore, it offers enhanced recognition of specific signs and symptoms of anaphylaxis that are particular to infants and toddlers, helping to improve early and accurate diagnosis in this vulnerable population. It is important to note that the administration of epinephrine should be used for treatment, not as a surrogate for diagnosing anaphylaxis.
+
+Risk factors for anaphylaxis should be meticulously assessed on a case-by-case basis, as individual predispositions and cofactors play a significant role. These cofactors can include factors like exercise, acute infections, and the use of nonsteroidal anti-inflammatory drugs (NSAIDs), which can lower the threshold for a reaction or exacerbate its severity. Understanding these risk factors is crucial for personalized patient counseling and the development of effective prevention strategies.
+
+Acute management of anaphylaxis remains critically focused on the prompt administration of epinephrine. The guidelines emphasize appropriate dosing and administration routes, highlighting that epinephrine auto-injectors are the first-line treatment. While epinephrine is paramount, the update also discusses the judicious use of adjunctive treatments, including antihistamines and corticosteroids, which may help alleviate specific symptoms but do not replace epinephrine in managing the life-threatening aspects of anaphylaxis.
+
+Significant advancements in the field have led to evolving treatments and strategies aimed at preventing future anaphylactic episodes. This includes developments in food allergen immunotherapy, which aims to desensitize patients to specific allergens. Additionally, the review covers the emergence of anti-IgE therapies, such as omalizumab, and Bruton's tyrosine kinase (BTK) inhibitors, which represent promising new therapeutic targets for managing and preventing severe allergic reactions in select patient populations.
+
+Long-term management of anaphylaxis necessitates comprehensive patient counseling and shared decision-making between clinicians and patients. This collaborative approach is essential for empowering patients to understand their condition, manage their risks, and make informed treatment choices. Key components include the development of personalized emergency action plans, thorough education on allergen avoidance, and proper training on how and when to use epinephrine auto-injectors.
+
+The continuous evolution of research in anaphylaxis provides deeper insights into its pathophysiology and new avenues for therapeutic intervention. This review underscores the importance of staying abreast of these developments to enhance clinical practice and improve patient outcomes. By integrating the latest evidence on diagnostic criteria, risk assessment, acute management, and emerging preventive treatments, healthcare providers can offer optimal care to individuals at risk for or experiencing anaphylaxis.
+
+References:
+Wang J, Lieberman JA, Wallace DV, Waserman S, Golden DBK. Anaphylaxis in Practice: A Guide to the 2023 Practice Parameter Update. J Allergy Clin Immunol Pract. 2024 Mar;12(3):575-585.
+Sicherer SH, Sampson HA, Committee on Allergy, Section on Dermatology. J Allergy Clin Immunol. 2023 Nov;152(5):1108-1126.e2.
+Wood RA, Togias A, Sicherer SH, Shreffler WG, Kim EH, Jones SM, et al. Omalizumab for the treatment of multiple food allergies. N Engl J Med 2024;390:889-99.
+Suresh RV, Dunnam C, Vaidya D, Wood RA, Bochner BS, MacGlashan DW Jr, et al. A phase II study of Bruton’s tyrosine kinase inhibition for the prevention of anaphylaxis. J Clin Invest 2023;133:e172335.
+Maurer M, Berger W, Gimenez-Arnau A, Hayama K, Jain V, Reich A, et al. Remibrutinib, a novel BTK inhibitor, demonstrates promising efficacy and safety in chronic spontaneous urticaria. J Allergy Clin Immunol 2022;150:1498-1506.e2.

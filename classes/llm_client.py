@@ -23,22 +23,14 @@ class LLMClient:
         :param prompt: User query string
         :return: LLM response text
         """
+        # The new payload uses the "messages" format
         payload = {
             "model": self.llm_model_name,
-            "prompt": prompt,
+            "messages": [
+                {"role": "user", "content": prompt}
+            ],
             "max_tokens": 2000,
-            # "temperature": 0.7
         }
-        # payload = {
-        #     "model": self.llm_model_name,
-        #
-        #     # "messages": [
-        #     #     {"role": "system", "content": "You are an AI assistant."},
-        #     #     {"role": "user", "content": prompt}
-        #     # ],
-        #     # "max_tokens": 200,
-        #     # "temperature": 0.7
-        # }
         headers = {"Content-Type": "application/json"}
 
         try:
@@ -46,7 +38,8 @@ class LLMClient:
                                      headers=headers,
                                      data=json.dumps(payload))
             response.raise_for_status()
-            return response.json().get("choices", [{}])[0].get("text", "").strip()
+            # The response structure is also different for the chat endpoint
+            return response.json().get("choices", [{}])[0].get("message", {}).get("content", "").strip()
         except requests.exceptions.RequestException as e:
             self.logger.error(f"Error querying LLM: {e}")
             return "Error: Could not connect to the LLM."

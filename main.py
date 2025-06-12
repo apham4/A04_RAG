@@ -13,6 +13,7 @@ from classes.rag_query_processor import RAGQueryProcessor
 from classes.utilities import delete_directory
 
 from datetime import datetime
+import time
 
 CONFIG_FILE = "config.json"
 SCRIPT_DIR = Path(__file__).parent
@@ -211,9 +212,10 @@ def main():
         "step05_generate_response": step05_generate_response
     }
 
+    start_time = time.time() # benchmarking
     steps[args.step](args)
-
-    logging.info(f"RAG pipeline done")
+    elapsed_time = time.time() - start_time
+    logging.info(f"{args.step} completed in {elapsed_time:.2f} seconds.")
 
 def check_things():
     print("checking things")

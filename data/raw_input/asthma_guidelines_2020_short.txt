@@ -1,0 +1,23 @@
+Title: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group
+
+Authors: Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPCC)
+
+Summary:
+The 2020 Focused Updates to the Asthma Management Guidelines represent a critical effort to enhance patient care and inform clinical decision-making in asthma management. Coordinated and supported by the National Heart, Lung, and Blood Institute (NHLBI), these updates address six priority topic areas identified through a rigorous needs assessment and stakeholder input. The aim is to provide evidence-based recommendations for improving outcomes for individuals with asthma across various age groups and disease severities.
+
+One key area of focus is Fractional Exhaled Nitric Oxide (FeNO) Testing. The guidelines provide recommendations on the use of FeNO testing for diagnosing eosinophilic asthma, monitoring asthma control, and predicting a patient's response to corticosteroid therapy. This update helps clinicians integrate FeNO measurements into their diagnostic and management algorithms, allowing for more personalized treatment approaches based on underlying inflammatory phenotypes.
+
+Another important update pertains to Indoor Allergen Mitigation. The guidelines review the evidence for interventions aimed at reducing exposure to indoor allergens, such as dust mites, pet dander, and cockroaches. Recommendations are provided on when and how to implement these mitigation strategies to reduce asthma symptoms and exacerbations, particularly in sensitized individuals, emphasizing a comprehensive approach to environmental control.
+
+The guidelines also address the role of Intermittent Inhaled Corticosteroids (ICS). Specific recommendations are given for their use in mild persistent asthma, considering their efficacy in achieving asthma control and reducing exacerbations in certain patient populations. This section clarifies the appropriate context for intermittent ICS therapy, providing guidance on patient selection and monitoring to ensure optimal benefits while minimizing risks.
+
+Long-Acting Muscarinic Antagonists (LAMAs) as add-on therapy for uncontrolled asthma represent another significant update. The guidelines explore the utility of LAMAs when asthma remains uncontrolled despite standard inhaled corticosteroid and long-acting beta-agonist (ICS-LABA) therapy. Recommendations are provided on the circumstances under which LAMAs can be considered to further improve lung function and reduce exacerbations.
+
+Furthermore, the updates delve into Immunotherapy (AIT) in the treatment of allergic asthma. The guidelines review the evidence supporting the use of subcutaneous immunotherapy (SCIT) and sublingual immunotherapy (SLIT) for allergic asthma, outlining criteria for patient selection, appropriate allergens, and considerations for safety and efficacy. This section guides clinicians on incorporating AIT into comprehensive management plans for eligible patients.
+
+Finally, Bronchial Thermoplasty (BT) is evaluated as a treatment option for severe persistent asthma not adequately controlled by pharmacological therapy. The guidelines provide insights into the efficacy and safety of BT, a bronchoscopic procedure that reduces airway smooth muscle mass. Recommendations are given on patient selection criteria for BT, considering its role as a specialized intervention for a subset of patients with severe asthma.
+
+References:
+2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group. J Allergy Clin Immunol. 2020 December; 146(6): 1217-1270.
+National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC).
+National Heart, Lung, and Blood Institute (NHLBI).

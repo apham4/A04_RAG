@@ -69,5 +69,4 @@ class ChromaDBRetriever:
         # Sort by score (lower is better in similarity searches)
         retrieved_docs.sort(key=lambda x: x["score"])
 
-        # Keep only the **most relevant** document
-        return retrieved_docs[:1] if retrieved_docs else []
+        return retrieved_docs
