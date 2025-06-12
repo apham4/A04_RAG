@@ -62,12 +62,20 @@ def step01_ingest_documents(args):
     ingestor.process_files()
 
     logging.info("[Step 01] Document ingestion completed.")
-
+    
 def step02_generate_embeddings(args):
     """ Step 02: Generates vector embeddings from text chunks."""
     logging.info("[Step 02] Embedding generation started.")
 
-    file_list = [args.input_filename] if args.input_filename != "all" else os.listdir(config.get("cleaned_text_directory"))
+    all_files = os.listdir(config.get("cleaned_text_directory"))
+    if args.input_filename and args.input_filename != "all":
+        # Find chunk file corresponding to original file name
+        target_stem = Path(args.input_filename).stem
+        file_list = [f for f in all_files if f.startswith(target_stem) and f.endswith("_cleaned_chunks.json")]
+    else:
+        # Process all chunk files
+        file_list = [f for f in all_files if f.endswith("_cleaned_chunks.json")]
+
     preparer = EmbeddingPreparer(file_list=file_list,
                                  input_dir=config.get("cleaned_text_directory"),
                                  output_dir=config.get("embeddings_directory"),
@@ -75,8 +83,7 @@ def step02_generate_embeddings(args):
     preparer.process_files()
 
     logging.info("[Step 02] Embedding generation completed.")
-
-
+    
 def step03_store_vectors(args):
     """ Step 03: Stores embeddings in a vector database."""
     logging.info("[Step 03] Vector storage started.")
@@ -86,7 +93,15 @@ def step03_store_vectors(args):
         logging.info("deleting existing vectordb")
         delete_directory(config.get("vectordb_directory"))
 
-    file_list = [args.input_filename] if args.input_filename != "all" else os.listdir(config.get("cleaned_text_directory"))
+    all_files = os.listdir(config.get("cleaned_text_directory"))
+    if args.input_filename and args.input_filename != "all":
+        # Find chunk file corresponding to original file name
+        target_stem = Path(args.input_filename).stem
+        file_list = [f for f in all_files if f.startswith(target_stem) and f.endswith("_cleaned_chunks.json")]
+    else:
+        # Process all chunk files
+        file_list = [f for f in all_files if f.endswith("_cleaned_chunks.json")]
+
     loader = EmbeddingLoader(cleaned_text_file_list=file_list,
                              cleaned_text_dir=config.get("cleaned_text_directory"),
                              embeddings_dir=config.get("embeddings_directory"),

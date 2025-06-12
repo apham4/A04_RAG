@@ -25,12 +25,12 @@ BASEDIR="C:\Users\phamq\OneDrive\Desktop\school stuff\691\A04\RAG_project\A04_RA
 # ----------------------------------
 #  Step 04: Retrieve chunks of text and similarity scores
 # ----------------------------------
-python "$BASEDIR/main.py" step04_retrieve_chunks --query_args "What are some key points in managing peanut allergies?"
+# python "$BASEDIR/main.py" step04_retrieve_chunks --query_args "Tell me about peanut allergies"
 
 # ----------------------------------
 #  Step 05: Run LLM Queries with and without RAG
 #  	If the parameter "--use_rag" is not provided, RAG is not performed
 # ----------------------------------
-# QUERY="What are some key points in managing peanut allergies?"
+QUERY="Tell me about peanut allergies"
 # python "$BASEDIR/main.py" step05_generate_response  --query_args "$QUERY"
-# python "$BASEDIR/main.py" step05_generate_response  --query_args "$QUERY"  --use_rag
+python "$BASEDIR/main.py" step05_generate_response  --query_args "$QUERY"  --use_rag
