@@ -1,0 +1,27 @@
+Guideline Title: Addendum Guidelines for the Prevention of Peanut Allergy in the United States: Report of the NIAID-Sponsored Expert Panel
+Publishing Organization & Date: National Institute of Allergy and Infectious Diseases (NIAID). Published January 2017.
+
+Scope and Purpose:
+The purpose of this addendum is to provide specific, evidence-based clinical guidelines focused exclusively on the primary prevention of peanut allergy in infants. The scope is to translate the findings of the landmark Learning Early About Peanut Allergy (LEAP) trial into actionable recommendations for healthcare providers. The central goal is to change the previous paradigm of allergen avoidance and instead promote the early and targeted introduction of peanut-containing foods into the diets of infants based on their individual risk for developing peanut allergy.
+
+Patient Population:
+The patient population is exclusively infants, who are stratified into three distinct risk categories based on their clinical presentation and history. These categories guide the clinical approach. The guideline is intended for a wide variety of healthcare providers who care for infants, including pediatricians, allergists, family physicians, dermatologists, and other allied health professionals.
+
+Core Content (Detailed Multi-Paragraph Breakdown):
+The core of this addendum is a risk stratification model based on the infant's clinical symptoms, which then dictates the recommended actions. Guideline 1 defines the high-risk population as infants who have the symptom of severe eczema, a diagnosis of egg allergy, or both. These symptoms are strong predictors of a predisposition to develop peanut allergy. For this high-risk group, the guideline strongly recommends an evaluation by a specialist before any peanut introduction. This evaluation should include a peanut-specific IgE blood test and/or a skin prick test (SPT). The results of these tests then guide the next step. If the sIgE level is less than 0.35 kU_A/L or the SPT wheal is 2 mm or less, the infant is deemed at low risk of reacting, and peanut should be introduced at home as early as 4 to 6 months of age. If the tests are moderately positive, a supervised oral food challenge in a specialist's office is suggested.
+
+Guideline 2 addresses infants at mild-to-moderate risk, who are defined as having symptoms of mild or moderate eczema but no history of an immediate allergic reaction to any food. For this population, the guideline suggests the introduction of age-appropriate peanut-containing foods around 6 months of age. No prior medical evaluation or testing is necessary for this group. The timing should align with the family's preferences and cultural norms for introducing other solid foods.
+
+Guideline 3 applies to the low-risk population, which includes all infants who do not meet the criteria for the other two groups, meaning they have no eczema and no history of any food allergy. For these infants, the guideline recommends that peanut-containing foods can be introduced freely into the diet along with other solid foods, at an age and in a manner consistent with family and cultural practices. This recommendation effectively removes any previous advice to delay peanut introduction for the general population. For all groups where introduction is recommended, the guideline suggests a target amount of approximately 6 to 7 grams of peanut protein per week, distributed over at least three feedings, to maintain exposure and tolerance.
+
+Key Safety Warnings & Contraindications:
+The primary safety warning is directed at the high-risk infant group. The guideline stresses that for infants with severe eczema or egg allergy, a medical evaluation is strongly considered to be a prerequisite to peanut introduction to ensure it can be done safely. It also provides a crucial general safety warning that whole peanuts should never be given to infants due to the high risk of choking. Any peanut-containing food must be in an age-appropriate form, such as a thinned peanut butter puree or peanut-based puffs.
+
+High-Value Keywords for RAG:
+Peanut allergy, prevention, early introduction, NIAID, Addendum Guideline, LEAP study, infant, eczema, egg allergy, risk stratification, skin prick test (SPT), specific IgE (sIgE), oral food challenge (OFC), Guideline 1, high-risk infant, mild-to-moderate eczema, age-appropriate, peanut protein, tolerance induction.
+
+Key Foundational References:
+
+Du Toit G, Roberts G, Sayre PH, et al. Randomized trial of peanut consumption in infants at risk for peanut allergy. N Engl J Med. 2015;372(9):803-813.
+Du Toit G, Sayre PH, Roberts G, et al. Effect of avoidance on peanut allergy after early peanut consumption. N Engl J Med. 2016;374(15):1435-1443.
+Boyce JA, Assa'ad A, Burks AW, et al. Guidelines for the Diagnosis and Management of Food Allergy in the United States: Report of the NIAID-Sponsored Expert Panel. J Allergy Clin Immunol. 2010;126(6 Suppl):S1-58.
