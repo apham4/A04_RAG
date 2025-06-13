@@ -1,0 +1,34 @@
+Title: Addendum Guidelines for the Prevention of Peanut Allergy in the United States
+Published by: National Institute of Allergy and Infectious Diseases (NIAID)
+Date of Publication: January 2017
+
+This guideline was created to help prevent peanut allergy in babies. Peanut allergy is a growing health problem, especially in children, and it can lead to severe and life-threatening reactions. Older recommendations suggested avoiding peanuts in early childhood, but new research has shown that introducing peanut-containing foods early may actually help prevent the allergy from developing. The main change in this guideline is the recommendation to introduce peanut-containing foods into a baby’s diet at an earlier age, depending on their individual risk level.
+
+These guidelines apply to infants and help parents and doctors know when and how to safely introduce peanut foods. It divides babies into three groups. The first group is babies with severe eczema (a serious skin condition that causes red, itchy, inflamed patches) or an egg allergy. These babies have the highest risk of developing a peanut allergy. The second group includes babies with mild or moderate eczema. The third group is babies who have no eczema and no food allergies. The advice for when and how to introduce peanut foods is different for each group.
+
+Doctors figure out if a baby is at risk by checking their skin and asking about reactions to eggs. If a baby has severe eczema or has had a reaction to egg, doctors may do tests to check for peanut allergy risk. One test is called a skin prick test, where a small drop of peanut extract is placed on the skin and the area is gently scratched to see if a raised bump (called a wheal) forms. Another test checks for something called peanut-specific IgE, which is an antibody that the body makes during an allergic response. These tests help doctors decide whether it’s safe to feed peanut-containing foods to the baby at home or whether it should be done under medical supervision.
+
+In case of an emergency allergic reaction, parents should watch for signs such as trouble breathing, swelling of the lips or face, vomiting, or hives after the baby eats peanut-containing food. These could be signs of anaphylaxis, a life-threatening allergic reaction. If this happens, caregivers should call 911 right away. The emergency treatment is a medicine called epinephrine, which is given by injection. It works quickly to stop the allergic reaction. After giving epinephrine, the baby should go to the emergency room for further care. Doctors may also use antihistamines and recommend follow-up with an allergy specialist.
+
+Parents of babies with diagnosed peanut allergy should have a clear emergency plan. This includes learning how to recognize symptoms, knowing when and how to use an epinephrine auto-injector (like an EpiPen), and avoiding all foods that contain peanut. Families should keep the epinephrine nearby at all times and educate everyone who cares for the baby on how to use it. Allergists will provide this training and a written emergency action plan.
+
+To prevent peanut allergy, the guideline says that babies with severe eczema or egg allergy should be introduced to peanut-containing foods between 4 and 6 months of age, but only after allergy testing is done. If tests show a low chance of allergy, they can try peanut at home or in the doctor’s office. If the tests show a higher risk, the baby should see an allergy specialist. Babies with mild or moderate eczema should try peanut around 6 months of age and can do this at home without testing. Babies with no eczema or food allergies can have peanut foods freely introduced with other solid foods, based on the family’s traditions and preferences.
+
+When introducing peanut foods, always start with a small amount and make sure the baby is healthy at the time. Use safe forms like smooth peanut butter mixed with warm water or infant cereal. Never give whole peanuts or chunky peanut butter to babies because they are choking hazards. After feeding, parents should watch the baby for at least two hours to make sure there’s no reaction.
+
+An important point is that this guideline does not conflict with breastfeeding. In the LEAP study, where babies ate peanut foods early, breastfeeding continued normally, and there were no negative effects on nutrition or growth. Introducing peanuts did not stop families from breastfeeding or change how well the babies grew.
+
+The biggest safety concern in this guideline is the risk of allergic reaction during the first peanut feeding, especially in babies who have not been tested and are at high risk. The guideline helps lower this risk by recommending testing before peanut introduction for babies with severe eczema or egg allergy. Parents should never give peanuts for the first time when the baby is sick, distracted, or being cared for in a daycare setting. It should always be done with full attention and time to observe.
+
+These guidelines show that early peanut introduction can help prevent allergy in many babies and give families a clear, safe way to do it. The goal is to reduce lifelong peanut allergies, which cause anxiety and limit food options for families. With the help of their doctors, parents can use these steps to keep their children safe and healthy while building tolerance to peanut.
+
+Keywords:
+peanut allergy, food allergy, baby eczema, egg allergy, infant feeding, early peanut introduction, allergic reaction, anaphylaxis, epinephrine, EpiPen, peanut-specific IgE, skin prick test (SPT), oral food challenge (OFC), severe eczema, peanut prevention, LEAP trial, IgE antibody, emergency plan, safe feeding practices
+
+References:
+
+Du Toit G, et al. Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy. N Engl J Med. 2015;372(9):803–13.
+
+Du Toit G, et al. Effect of Avoidance on Peanut Allergy after Early Peanut Consumption. N Engl J Med. 2016;374(15):1435–43.
+
+Perkin MR, et al. Randomized Trial of Introduction of Allergenic Foods in Breast-Fed Infants. N Engl J Med. 2016;374(18):1733–43.

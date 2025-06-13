@@ -1,0 +1,36 @@
+Title: 2020 Focused Updates to the Asthma Management Guidelines
+Published by: National Heart, Lung, and Blood Institute (NHLBI), part of the U.S. National Institutes of Health
+Date of Publication: December 2020
+
+This updated guideline was created to improve how doctors and patients manage asthma. Asthma is a common condition where the airways in the lungs become inflamed, narrow, and produce extra mucus, making it hard to breathe. Since the last major update in 2007, new research has brought fresh insights into asthma care. The new guideline focuses on six key topics where recent evidence has changed the way asthma should be managed. These include new ways to test and monitor inflammation, better treatment options, and updated strategies to reduce asthma triggers at home. The main takeaway is that asthma care should now be more personalized, based on the latest evidence and tailored to each patient’s needs.
+
+The updated guidelines apply to children and adults who have asthma. Asthma symptoms include wheezing, coughing, shortness of breath, and chest tightness. Some people have mild asthma that flares up only sometimes, while others have severe asthma that affects them daily. The guideline is especially helpful for people who don’t respond well to regular treatments, or for those who want to know about new treatment options.
+
+Doctors identify asthma through a combination of steps. They take a medical history and ask about symptoms. They also perform lung function tests like spirometry, which checks how well a person can breathe in and out. A newer test covered in this update is the fractional exhaled nitric oxide (FeNO) test. This test measures inflammation in the lungs by analyzing a person’s breath. A high FeNO level suggests airway inflammation often linked to asthma. While the FeNO test isn’t perfect, it can help doctors when they’re unsure if a patient has asthma or need help adjusting medications.
+
+In an asthma emergency, a person may have severe trouble breathing, speak in single words, or have bluish lips or fingernails. These are signs of a serious asthma attack and require emergency care. The first and most important treatment is a quick-relief inhaler, usually containing a drug called albuterol, which opens the airways fast. If this isn’t enough, doctors may give oxygen, steroids, or other medications at the hospital. People with severe asthma should carry an action plan and have access to medications like inhaled corticosteroids or long-acting bronchodilators to prevent future emergencies.
+
+Every person with asthma should have a written asthma action plan created with their doctor. This personalized plan outlines exactly what to do when symptoms worsen. It details how to increase the use of reliever medication, when to start a course of oral corticosteroids, and, most importantly, provides clear instructions on when to seek immediate medical help. Urgent medical care should be sought if the patient is experiencing severe breathlessness, is having difficulty speaking in full sentences, shows signs of drowsiness or confusion, or if their symptoms do not improve with initial reliever treatment.
+
+To prevent asthma symptoms, patients and families should reduce exposure to allergens like dust mites, pet dander, and mold. Using mattress covers, removing carpets, and keeping pets out of bedrooms can help. Smoking should always be avoided around people with asthma. Regular use of controller medications, even when a person feels well, is also important to prevent flare-ups. Skipping medications or waiting until symptoms get worse can lead to severe attacks.
+
+The guideline emphasizes using inhaled corticosteroids regularly, but also supports new flexible options. One such option is using these medications only when symptoms appear (intermittent use) for people with mild asthma. Another change includes using a long-acting drug called a muscarinic antagonist along with inhaled steroids for better control in some patients. Immunotherapy, like allergy shots, may help people whose asthma is triggered by specific allergens. A newer treatment for very severe asthma, called bronchial thermoplasty, uses heat to shrink the muscles in the airways. It’s only used in adults with serious asthma not helped by other treatments.
+
+The guideline advises against using certain tools alone, such as the FeNO test, to monitor asthma. While helpful, this test should be part of a full asthma management plan that includes regular checkups, lung function tests, and discussions about symptoms. Doctors should not rely on one test to guide treatment but instead use a full picture of the patient’s condition.
+
+A key safety message in the guideline is that asthma should not be treated the same way for everyone. Each person is different. Some may need daily medication, while others may do well with occasional use. The biggest danger is underestimating asthma. Even people with mild symptoms can have sudden, life-threatening attacks. That’s why it’s important to follow the action plan, keep medications on hand, and have regular visits with a doctor.
+
+The guideline stresses that patients and caregivers should be educated on how to properly use inhalers, recognize symptoms early, and know what to do during an attack. Doctors should also explain the benefits and side effects of different treatments. Some treatments may not work for everyone, and it’s important to make decisions together, based on patient needs and values.
+
+This update is a step toward more personalized asthma care. It shows how doctors can combine new tools like FeNO testing with traditional methods to better diagnose and manage asthma. It also introduces newer treatment options that can help people with more severe or hard-to-treat asthma live better, healthier lives. Ongoing research and patient feedback were both central to creating these recommendations.
+
+Keywords:
+asthma, asthma guidelines, asthma attack, FeNO, fractional exhaled nitric oxide, spirometry, inhaled corticosteroids, quick-relief inhaler, long-acting muscarinic antagonist, bronchial thermoplasty, immunotherapy, asthma triggers, action plan, airway inflammation, allergy shots, personalized asthma treatment, asthma exacerbation, lung function test, asthma symptoms, emergency asthma care
+
+References:
+
+Cloutier MM, et al. 2020 Focused Updates to the Asthma Management Guidelines. J Allergy Clin Immunol. 2020;146(6):1217–1270. doi:10.1016/j.jaci.2020.10.003
+
+AHRQ EPC Reports (Systematic Reviews used to develop this guideline), e.g., CER197 on FeNO, CER201 on allergen mitigation
+
+Asthma Outcomes Workshop Report, 2012 (recommended standardized measures for asthma research)
