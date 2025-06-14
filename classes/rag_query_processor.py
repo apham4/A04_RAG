@@ -23,6 +23,13 @@ class RAGQueryProcessor:
         """
         self.logger.debug(f"Received query: {query_text}")
 
+        # Direct LLM query if RAG is not used
+        if not self.use_rag:
+            response = self.llm_client.query(query_text)
+            self.logger.debug(f"LLM Response: {response}")
+            return response
+
+        # RAG mode
         context = ""
         if self.use_rag:
             self.logger.info("-"*80)
@@ -82,7 +89,7 @@ class RAGQueryProcessor:
         self.logger.debug(f"Prompt to LLM: {final_prompt}")
 
         response = self.llm_client.query(final_prompt)
-        self.logger.debug(f"LLM Response: {response}")
+        self.logger.debug(f"RAG Response: {response}")
 
         return response
 
