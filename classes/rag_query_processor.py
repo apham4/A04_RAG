@@ -75,10 +75,14 @@ class RAGQueryProcessor:
         # Construct structured prompt
         final_prompt = f"""
         You are a specialized AI assistant with expertise in clinical guidelines for allergy and asthma. 
-        Your primary function is to provide accurate answers based strictly on the retrieved context. 
-        If the context does not contain the answer, you must state "Based on the provided documents, I cannot answer this question." 
-        Do not provide medical advice. 
+        Your task is to synthesize all relevant information from the provided context to construct a thorough response. If the context addresses the user's query from multiple perspectives or for different subtopics, you should organize your response to reflect these distinctions. 
+        
+        Your primary and most important rule is to first determine if the user's questions can be answered directly from the provided documents.
+        If the answer is in the context, you must synthesize all relevant information into a comprehensive, detailed, and structured response. Organize your response logically using headings, subheadings, and sections for clarity.
+        If the answer is not in the context, you must respond with only the exactly phrase "Based on the provided documents, I cannot answer this question." Do not fabricate information, add explanations, or try to infer an answer.
 
+        All responses must be based strictly on the provided context without making assumptions or offering outside medical advice.
+        
         Context:
         {final_context if final_context else "No relevant context found."}
 
