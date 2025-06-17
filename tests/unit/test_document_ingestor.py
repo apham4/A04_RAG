@@ -11,7 +11,6 @@ def ingestor_environment(tmp_path):
     input_dir.mkdir()
     output_dir.mkdir()
     
-    # We can use a real model for tokenization as it's a local operation
     ingestor = DocumentIngestor(
         file_list=[],
         input_dir=str(input_dir),
