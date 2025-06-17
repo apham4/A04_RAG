@@ -31,6 +31,6 @@ python "$BASEDIR/main.py" step04_retrieve_chunks --query_args "Tell me about pea
 #  Step 05: Run LLM Queries with and without RAG
 #  	If the parameter "--use_rag" is not provided, RAG is not performed
 # ----------------------------------
-# QUERY="Tell me about peanut allergies"
+QUERY="Tell me about peanut allergies"
 # python "$BASEDIR/main.py" step05_generate_response  --query_args "$QUERY"
-# python "$BASEDIR/main.py" step05_generate_response  --query_args "$QUERY"  --use_rag
+python "$BASEDIR/main.py" step05_generate_response  --query_args "$QUERY"  --use_rag
