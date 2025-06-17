@@ -28,25 +28,6 @@ class RAGQueryProcessor:
             response = self.llm_client.query(query_text)
             self.logger.debug(f"LLM Response: {response}")
             return response
-
-        # RAG mode
-        context = ""
-        if self.use_rag:
-            self.logger.info("-"*80)
-            self.logger.info("Using RAG pipeline...")
-            retrieved_docs = self.retriever.query(query_text)
-            if not retrieved_docs:
-                logging.info("*** No relevant documents found.")
-            else:
-                result = retrieved_docs[0]
-                context = result.get('context', '')
-                logging.info(f"ID: {result.get('id', 'N/A')}")  # Handle missing ID
-                logging.info(f"Score: {result.get('score', 'N/A')}")
-                doc_text = result.get('text', '')
-                preview_text = (doc_text[:150] + "...") if len(doc_text) > 150 else doc_text
-                logging.info(f"Document: {preview_text}")
-                logging.info(f"Context: {context}")
-            self.logger.info("-" * 80)
             
         contexts = []
         if self.use_rag:
