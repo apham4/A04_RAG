@@ -5,3 +5,5 @@ challenges.txt
 /data/embeddings/
 /data/vectordb/
 /logs/
+/tests/unit/__pycache__
+/tests/integration/__pycache__
