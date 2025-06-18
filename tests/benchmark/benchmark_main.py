@@ -76,7 +76,10 @@ def main():
         print(f"Run {i+1} finished in {total_time:.2f}s")
         
     print("\n--- Benchmark Complete ---")
-    print(f"Results for full pipeline execution (ingest, embed, store):")
+    if (args.use_rag):
+        print(f"Results for RAG-enabled query response generation:")
+    else:
+        print(f"Results for non-RAG query response generation:")
     print(f"Mean:  {statistics.mean(all_results):.2f}s")
     if len(all_results) > 1:
         print(f"StDev: {statistics.stdev(all_results):.2f}s")
